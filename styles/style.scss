@@ -1,0 +1,14 @@
+$font-style: "Arial, Helvetica, sans-serif";
+$bgc-color: lightblue;
+
+body {
+  margin: 0;
+  background-color: $bgc-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: $font-style;
+}
+
+@import "gallery/btn", "gallery/img-gallery";

@@ -1,0 +1,25 @@
+.filter-btns {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  button {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin: 10px;
+    &.active {
+      background-color: blue;
+      color: #fff;
+    }
+    &:hover {
+      background-color: blue;
+      color: #fff;
+    }
+  }
+}
